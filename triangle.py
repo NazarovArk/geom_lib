@@ -3,8 +3,8 @@ def area(a, h):
     Calculates the area of ​​a triangle with side a and height h.
 
         Parameters:
-            a (float): triangle side
-            h (float): triangle height
+            a (float): triangle first side
+            h (float): triangle height perpendicular to first side
 
         Returns:
             triangle_area (float): area of ​​a triangle
