@@ -27,7 +27,7 @@ area(5, 10) # 50
 ```
 
 ### Функция perimeter(a: float, b: float) -> float
-Вычисляет периметр прямоугольника со сторонами a и b.
+Вычисляет периметр прямоугольника по стороне a и перпендикулярной стороне b.
 Пример использования:
 ```python
 from rectangle import perimeter
@@ -51,12 +51,12 @@ from square import perimeter
 perimeter(5) # 20
 ```
 ## Модуль triangle.py
-### Функция area(a: float, b: float, c: float) -> float
-Вычисляет площадь треугольника со сторонами a, b и c.
+### Функция area(a: float, h: float) -> float
+Вычисляет площадь треугольника по стороне a и опирающейся на эту сторону высоте h.
 Пример использования:
 ```python
 from triangle import area
-area(3, 4, 5) # 6.0
+area(3, 4) # 6.0
 ```
 
 ### Функция perimeter(a: float, b: float, c: float) -> float
