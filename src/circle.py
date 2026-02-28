@@ -32,5 +32,5 @@ def perimeter(r):
         raise TypeError('Radius must be a number')
     if r < 0:
         raise ValueError('Radius must be non-negative')
-    return math.pi * r
+    return 2 * math.pi * r
 
